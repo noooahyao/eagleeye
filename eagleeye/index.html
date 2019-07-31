@@ -6,7 +6,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <!-- TITLE OF SITE -->
@@ -908,15 +907,138 @@
 
 					<div class="yuqing">
 
-					<img class="yuqingimg" src="assets/images/yuqing.png"  height="350" width="520" >
+						<div style="width:33%;float:left;">
+							<div id="pie1" style="height:200px;width:270px;align:center">
+							</div>
+							<div class="text-center" >2017</div>
+						</div>
+						<div style="width:33%;float:left;">
+							<div id="pie2" style="height:200px;width:270px;align:center">
+							</div>
+							<div class="text-center" >2018</div>
+						</div>
+						<div style="width:33%;float:left;">
+							<div id="pie3" style="height:200px;width:270px;align:center">
+							</div>
+							<div class="text-center" >2019</div>
+						</div>
+
+						<script src="assets/js/echarts.source.js"></script>
+						<!--pie1-->
+						<script type="text/javascript">
+							// 基于准备好的dom，初始化echarts图表
+							var myChart = echarts.init(document.getElementById('pie1'));
+
+							var option = {
+
+								tooltip : {
+									trigger: 'item',
+									formatter: "{a} <br/>{b} : {d}%"
+								},
 
 
+								toolbox: {
+									show : false,
+								},
+								calculable : true,
+								series : [
+									{
+										name:'相关评价',
+										type:'pie',
+										radius : '40%',
+										center: ['50%', '50%'],
+										data:[
+											{value:6, name:'积极'},
+											{value:14, name:'消极'}]
+									}
+
+								]
+
+							};
+
+							// 为echarts对象加载数据
+							myChart.setOption(option);
+						</script>
+
+						<!--pie2-->
+						<script type="text/javascript">
+							// 基于准备好的dom，初始化echarts图表
+							var myChart = echarts.init(document.getElementById('pie2'));
+
+							var option = {
+
+								tooltip : {
+									trigger: 'item',
+									formatter: "{a} <br/>{b} : {d}%"
+								},
+
+
+								toolbox: {
+									show : false,
+								},
+								calculable : true,
+								series : [
+									{
+										name:'相关评价',
+										type:'pie',
+										radius : '40%',
+										center: ['50%', '50%'],
+										data:[
+											{value:43, name:'积极'},
+											{value:5, name:'消极'}]
+									}
+
+								]
+
+							};
+
+							// 为echarts对象加载数据
+							myChart.setOption(option);
+						</script>
+
+						<!--pie3-->
+						<script type="text/javascript">
+							// 基于准备好的dom，初始化echarts图表
+							var myChart = echarts.init(document.getElementById('pie3'));
+
+							var option = {
+
+								tooltip : {
+									trigger: 'item',
+									formatter: "{a} <br/>{b} : {d}%"
+								},
+
+
+								toolbox: {
+									show : false,
+								},
+								calculable : true,
+								series : [
+									{
+										name:'相关评价',
+										type:'pie',
+										radius : '40%',
+										center: ['50%', '50%'],
+										data:[
+											{value:15, name:'积极'},
+											{value:7, name:'消极'}]
+									}
+
+								]
+
+							};
+
+							// 为echarts对象加载数据
+							myChart.setOption(option);
+						</script>
+						<img class="yuqingimg" src="assets/images/yuqing.png"  height="350" width="520" >
 
 				</div>
 
 
 
-			</div><!--/.container-fluid-->
+
+				</div><!--/.container-fluid-->
 
 		</div><!--/.main-content-->
 	</div>
