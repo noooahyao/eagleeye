@@ -324,7 +324,7 @@ html.fullscreen-bg #wrapper {
   line-height: 1;
   color: #222e4f;
   text-transform: capitalize;
-  margin-left: -10px;
+  margin-left: 20px;
 }
 .navbar-form p{
   padding: 2px 0 0 0px;
@@ -333,7 +333,7 @@ html.fullscreen-bg #wrapper {
   font-weight: normal;
   line-height: 1;
   color: #79829a;
-  margin-left: -10px;
+  margin-left: 20px;
 }
 .navbar-form input {
   width: 150px;
@@ -891,11 +891,11 @@ ul.notifications > li > .more:hover, ul.notifications > li > .more:focus {
   background-color: #ffffff;
   box-shadow: 0 0 5px 0 rgba(18, 31, 62, 0.08);
   width: 800px;
-  height:500px;
+  height:600px;
 }
 .yuqingimg{
   width:80%;
-  height: 95%;
+  height:60%;
   margin-left: 80px;
   margin-top: 13px;
 }
@@ -1025,10 +1025,12 @@ ul.notifications > li > .more:hover, ul.notifications > li > .more:focus {
 
 /*product_status*/
 .ct-series-a .ct-slice-pie {
-  fill: #b077f4;
+  fill: #ff4500;
+  opacity:0.8;
 }
 .ct-series-b .ct-slice-pie {
-  fill: #55a9fd;
+  fill: #59abfa;
+  opacity:0.8;
 }
 .ct-series-c .ct-slice-pie {
   fill: #5dd0c8;
@@ -1036,8 +1038,8 @@ ul.notifications > li > .more:hover, ul.notifications > li > .more:focus {
 .ct-series-d .ct-slice-pie {
   fill: #fb6195;
 }
-.income-dot.ps-dot1,.map-dot.ps-dot1{background:#b077f4}
-.income-dot.ps-dot2,.map-dot.ps-dot2{background:#55a9fd}
+.income-dot.ps-dot1,.map-dot.ps-dot1{background:#ff4500}
+.income-dot.ps-dot2,.map-dot.ps-dot2{background:#59abfa}
 .income-dot.ps-dot3,.map-dot.ps-dot3{background:#5dd0c8}
 .income-dot.ps-dot4,.map-dot.ps-dot4{background:#fb6195}
 .stat-income.pl0 p:nth-child(1){padding-left: 0;}
