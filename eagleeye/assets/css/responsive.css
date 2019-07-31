@@ -1,0 +1,135 @@
+@media screen and (max-width:1370px){
+	
+}/*max-width:1366px*/
+
+@media screen and (max-width:1250px){
+
+}/*max-width:1250px*/
+
+@media screen and (max-width:1200px){
+    
+}/*max-width:1200px*/
+
+
+@media screen and (max-width:1199px){
+	.navbar-default .navbar-form {padding: 0 0;margin-left: 0;}
+	
+}/*max-width:1199px*/
+
+@media screen and (max-width:1024px){
+
+				/*layout*/
+
+	#wrapper .sidebar {left: -260px;}
+  	#wrapper .main {width: 100%;}
+  	#wrapper .navbar {left: 0 !important;}
+  	.navbar-btn {opacity: 1;visibility: visible;}
+  	#wrapper .btn-toggle-fullwidth {color: #00AAFF;}
+  	.btn-toggle-minified {display: none;}
+
+}/*max-width:1024px*/
+
+
+@media screen and (max-width:992px){
+	
+}/*max-width:992px*/
+
+
+@media screen and (max-width:991px){
+	.box {min-height: 354px;}
+	.stat-income p {padding-left: 10px;}
+	.map-area ul {display: block;}
+}/*max-width:991px*/
+
+@media screen and (max-width:899px){
+	.stat-income p {padding-left: 0;}
+	.stat-income p:nth-child(2) { margin-left: 10px;}
+	.stat-income {display: block;}
+	.stat-income p:nth-child(2).ml10 { margin-left: -10px;}
+	p.ml10{margin-left: -15px;}
+   
+}/*max-width:899px*/
+
+@media screen and (max-width:768px){
+   
+   
+}/*max-width:768px*/
+
+
+@media screen and (max-width:767px){
+
+				/*layout*/
+
+	#wrapper #sidebar-nav,#wrapper .main {padding-top: 130px; }
+	
+	.navbar + .main-content {padding-top: 155px;} 
+
+	.item-responsive {
+	    width: 100%;
+	    margin-bottom: 15px;
+	    overflow-x: scroll;
+	    overflow-y: hidden;
+	    -ms-overflow-style: -ms-autohiding-scrollbar;
+	    -webkit-overflow-scrolling: touch;
+	}
+	.navbar-default .navbar-form {border-color:transparent;}
+
+	.profile-state { max-width: 300px;margin: 0 auto;margin-bottom: 30px;text-align: center;}
+	.icon-box {display: inline-flex;}
+
+
+	.box {max-width: 100%;margin: 0 auto;margin-bottom: 30px;}
+	#yarly_expence {max-width: 98%;}
+	.year-info {float:right;}
+
+
+	.copyright {text-align: center;position: relative !important; } 
+}/*max-width:767px*/
+
+
+@media screen and (max-width: 640px){
+
+	.navbar-btn {padding-left: 0;} 
+
+}/*max-width:640px*/
+
+
+@media screen and (max-width: 580px){
+
+
+}/*max-width:580px*/
+
+@media screen and (max-width: 540px){
+
+}/*max-width:540px*/
+
+@media screen and (max-width: 480px){
+
+}/*max-width:480px*/
+
+@media screen and (max-width: 479px){
+
+
+}/*max-width:479px*/
+
+@media screen and (max-width: 440px){
+	.statistics-data {padding-left: 0;margin-top: 15px;}
+	
+
+	.box-head h2 {float: none;}
+	.year-info {float: left;display: block;}
+
+}/*max-width:440px*/
+
+@media screen and  (max-width: 399px){
+	#yarly_expence svg {padding-left: 10px;padding-right: 0;}
+	.year-info { margin-top: 20px;}
+}/*max-width:399px*/
+
+@media screen and  (max-width: 350px){
+	
+}/*max-width:350px*/
+
+@media screen and  (max-width: 320px){
+}/*max-width:320px*/
+
